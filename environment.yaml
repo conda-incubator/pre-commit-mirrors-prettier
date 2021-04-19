@@ -1,0 +1,4 @@
+channels:
+  - conda-forge
+dependencies:
+  - prettier=2.2.1

@@ -1,0 +1,7 @@
+- id: prettier-conda
+  name: prettier-conda
+  description: An opinionated code formatter
+  entry: prettier
+  language: conda
+  types: [text]
+  args: ["--write"]
