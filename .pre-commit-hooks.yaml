@@ -3,5 +3,5 @@
   description: An opinionated code formatter
   entry: prettier
   language: conda
-  types: [text]
+  files: '.*\.(yaml|yml|json|md)'
   args: ["--write"]
