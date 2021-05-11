@@ -4,4 +4,4 @@
   entry: prettier
   language: conda
   types: [text]
-  args: ["--write"]
+  args: ["--write", "--list-different", "--ignore-unknown"]
