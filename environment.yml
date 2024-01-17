@@ -1,4 +1,4 @@
 channels:
   - conda-forge
 dependencies:
-  - prettier=3.2.3
+  - prettier=3.2.4
