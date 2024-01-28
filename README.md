@@ -1,17 +1,18 @@
-# prettier pre-commit hook
+# prettier mirror
 
-Hook for prettier with conda as a language.
+Mirror of prettier for pre-commit with conda as a language.
 
-- For pre-commit: see https://github.com/pre-commit/pre-commit
-- For prettier: see https://github.com/prettier/prettier
+For pre-commit: see [here](https://github.com/pre-commit/pre-commit)
 
-### Using prettier with pre-commit and conda:
+For prettier: see [here](https://github.com/prettier/prettier)
 
-Add this to your `.pre-commit-config.yaml`:
+## Using prettier with pre-commit and conda:
+
+Add this to your `.pre-commit-config.yaml`
 
 ```yaml
-- repo: https://github.com/Quantco/pre-commit-mirrors-prettier
-  rev: "" # The git sha / tag you want to point to
-  hooks:
-    - id: prettier-conda
+ - repo: https://github.com/quantco/pre-commit-mirrors-prettier
+   rev: ''  # Use the sha / tag you want to point at
+   hooks:
+     - id: prettier-conda
 ```
