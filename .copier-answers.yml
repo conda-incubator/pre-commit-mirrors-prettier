@@ -1,0 +1,7 @@
+# This file is managed by Copier; DO NOT EDIT OR REMOVE.
+_commit: v0.1.2
+_src_path: git@github.com:quantco/copier-template-pre-commit-mirrors
+description: An opinionated code formatter
+entry: prettier
+tool: prettier
+url: https://github.com/prettier/prettier
