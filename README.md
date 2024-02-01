@@ -1,6 +1,6 @@
-# prettier mirror
+# prettier pre-commit hook
 
-Mirror of prettier for pre-commit with conda as a language.
+pre-commit hook of prettier with conda as a `language` / package manager.
 
 For pre-commit: see [here](https://github.com/pre-commit/pre-commit)
 
